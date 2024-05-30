@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "punto1": "node Punto_1_Git_App/src/app.js --watch",
+    "punto3": "node ./Punto_3/main.js"
   },
   "repository": {
     "type": "git",

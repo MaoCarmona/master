@@ -4,7 +4,7 @@
     * Conexion a API de github :
         * Para ejecutar este punto:
             ``` sh
-                node Punto_1_Git_App/src/app.js
+                npm run punto1
             ``` 
         * Para acceder al archivo principal acceda a [Ver la solucion del punto 1](Punto_1_Git_App\src\app.js)
 * ## Punto 2
@@ -14,6 +14,6 @@
     * Generador de numeros impares dado un numero X :
         * Para ejecutar este punto:
             ```sh
-                node ./Punto_3/main.js
+                npm run punto3
             ```
         * Para ver la solucion a este punto acceda a [Ver la solucion del punto 3](Punto_3/main.js)
