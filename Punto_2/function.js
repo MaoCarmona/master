@@ -1,5 +1,4 @@
 /* PUNTO 2 
-Te presentamos el siguiente fragmento de código:
     function f(x, y, z) {
         let a = x + y;
         let b = a * z;
