@@ -1,5 +1,6 @@
 const serializeRepos = (repos) => {
     return repos.map(repo => ({
+        owner: repo.owner.login,
         name: repo.name,
         description: repo.description,
         url: repo.html_url,

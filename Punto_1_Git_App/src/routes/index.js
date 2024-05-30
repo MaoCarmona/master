@@ -1,4 +1,4 @@
-const { handleReposRoute } = require('./repos');
+const { handleReposRoute } = require('./repos.route');
 
 const router = {
     '/repos': handleReposRoute

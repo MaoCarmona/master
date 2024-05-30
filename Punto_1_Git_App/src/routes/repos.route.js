@@ -1,6 +1,6 @@
 const { getPopularRepos } = require('../api/github');
-const { serializeRepos } = require('../utils/serializer');
-const { handleError } = require('../utils/errorHandler');
+const { serializeRepos } = require('../utils/serializer.util');
+const { handleError } = require('../utils/errorHandler.util');
 const config = require('../config');
 
 const handleReposRoute = async (req, res) => {
