@@ -6,6 +6,10 @@
             ``` sh
                 npm run punto1
             ``` 
+        * Para ejecutar los test de este punto:
+            ``` sh
+                npm run test
+            ``` 
         * Para acceder al archivo principal acceda a [Ver la solucion del punto 1](Item_1\src\app.js)
 
 * ## Punto 2
@@ -27,3 +31,4 @@
 * ## Punto 6 
     * Documento de Politicas de nomenclatura:
         * Para ver la descripcion de estas politicas acceda a [Ver la solucion al Punto 6](Item_6/naming-policies.md)
+        * Ademas se esta realizando una breve implementacion de estas con eslint en [Ver Implementacion de Politicas de Nomenclatura](.eslintrc.json)

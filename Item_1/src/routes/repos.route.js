@@ -12,7 +12,7 @@ const { githubUsername } = require('../config');
  */
 const handleReposRoute = async (req, res) => {
     try {
-        const repos = await getPopularRepos(githubUsername);
+        const repos = await getPopularRepos(req.user || githubUsername);
         const serializedResponse = serializeRepos(repos);
 
         res.statusCode = 200;
