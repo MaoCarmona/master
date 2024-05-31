@@ -26,8 +26,9 @@
 
 * ## Punto 4
     * Modelado de Base de datos:
-        * Para visualizar el diagrama del modelado de la base de datos solicitada acceda a [Ver diagrama del punto 4](Item_4\postgres.png)
-        * Para visualizar el script de SQL que nos permite crear esta DB acceda a [Ver SQL del punto 4](Item_4\Database.SQL)
+        * Para visualizar el diagrama del modelado de la base de datos solicitada acceda a [Ver diagrama del punto 4](Item_4/postgres.png)
+        * Para visualizar el script de SQL que nos permite crear esta DB acceda a [Ver SQL del punto 4](Item_4/Database.SQL)
+        * Para visualizar las restricciones planteadas para esta DB acceda a [Ver Restricciones de Integridad](Item_4/databaseConstraint.md)
 
 * ## Punto 5
     * Arquitectura del Backend -- Backend de una e-commerce app
