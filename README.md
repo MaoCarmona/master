@@ -24,6 +24,11 @@
             ```
         * Para ver la solucion a este punto acceda a [Ver la solucion del punto 3](Item_3/main.js)
 
+* ## Punto 4
+    * Modelado de Base de datos:
+        * Para visualizar el diagrama del modelado de la base de datos solicitada acceda a [Ver diagrama del punto 4](Item_4\postgres.png)
+        * Para visualizar el script de SQL que nos permite crear esta DB acceda a [Ver SQL del punto 4](Item_4\Database.SQL)
+
 * ## Punto 5
     * Arquitectura del Backend -- Backend de una e-commerce app
         * Para visualizar los detalles de mi definicion acceda a [Ver la Solucion del punto 5](Item_5/e-comerce-app.md)
