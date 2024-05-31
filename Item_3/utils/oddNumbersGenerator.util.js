@@ -1,4 +1,4 @@
-function getOddNumbers(upTo) {
+export function getOddNumbers(upTo) {
     const oddNumbers = [];
     for (let i = 1; i <= upTo; i += 2) {
         oddNumbers.push(i);
@@ -6,4 +6,3 @@ function getOddNumbers(upTo) {
     return oddNumbers;
 }
 
-module.exports = { getOddNumbers };

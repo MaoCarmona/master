@@ -15,3 +15,5 @@
     const sineOfProductResult = Math.sin(productResult);
     return sineOfProductResult;
 }
+
+calculateSineOfProduct(5,5,10);

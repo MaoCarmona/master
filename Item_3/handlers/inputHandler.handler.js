@@ -1,9 +1,11 @@
-const readline = require('readline');
-const numberGenerator = require('../utils/oddNumbersGenerator.util');
+/* eslint-disable no-console */
+import { createInterface } from 'readline';
+
+import { getOddNumbers } from '../utils/oddNumbersGenerator.util';
 
 function promptForNumber() {
-    return new Promise((resolve, reject) => {
-        const readLine = readline.createInterface({
+    return new Promise((resolve) => {
+        const readLine = createInterface({
             input: process.stdin,
             output: process.stdout
         });
@@ -21,9 +23,9 @@ function processInput(input) {
     if (isNaN(number)) {
         console.log('Please enter a valid integer.');
     } else {
-        const result = numberGenerator.getOddNumbers(number);
+        const result = getOddNumbers(number);
         console.log('Odd numbers:', result);
     }
 }
 
-module.exports = { promptForNumber, processInput };
+export default { promptForNumber, processInput };
